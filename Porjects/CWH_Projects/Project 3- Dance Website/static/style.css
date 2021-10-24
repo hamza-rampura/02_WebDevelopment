@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+
+
+.container {
+    height: 100vh;
+}
+
+#navbar {
+    background-color: #a70000;
+    padding: 10px 20px;
+    font-family: "Rubik";
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar li a:hover {
+    color: #000;
+}
+
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#introSection{
+    color: #ffbaba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: bottom/ cover no-repeat url("bg.jpg");
+    font-family: "Rubik";
+    font-size: 35px;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+
+.small {
+    font-size: 24px;
+    color: #cb0000;
+}
+
+section h2 {    
+    padding-top: 20px;
+    text-align: center;
+    color: #a70000;
+    font-size: 2rem;
+}
+
+#missionSection{
+    height: auto;
+    background-color: #ffbaba;
+    padding-top: 20px;
+}
+
+.cardContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid #a70000;
+    width: 25%;
+    margin: 20px 25px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fbd2d2;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px; 
+    width: 50%;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content {
+    padding: 10px;
+    width: 50%;
+}
+
+.card-content p{
+    font-size: 15px;
+}
+
+#sponsorSection{
+    background-color: #ffbaba;
+    padding: 20px;
+}
+
+#sponsors {
+    display: flex;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.spImage {
+    display: inline-block;
+    margin: 20px auto;
+    height: 160px;
+}
+
+
+#footer {
+    position: relative;
+    height: 35px;
+    padding: 0.5em 0;
+    width: 100%;
+    background-color: #a70000;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "code69",
+  "version": "1.0.0",
+  "description": "This is the entry to NPM. ",
+  "main": "code69.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Learning"
+  ],
+  "author": "Hamza",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "express": "^4.17.1",
+    "slugify": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
